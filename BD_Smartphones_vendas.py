@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import hashlib
 
 # Initialize Faker with Brazilian locale for realistic addresses and names
-fake = Faker('pt_BR')
+fake = Faker('pt_br')
 
 def generate_cellphone_sales_data(num_records=1000):
     """
