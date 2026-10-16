@@ -11,7 +11,7 @@ def generate_medical_exam_data(num_records=500):
     """
     Generates a highly realistic mock database for medical exam results.
     Includes Urine, Cardiac, and Hormonal tests with clinical logic, 
-    reference ranges, and status comparisons.
+    reference ranges, and status comparisons
     """
     data = []
     
